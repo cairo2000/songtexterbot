@@ -126,7 +126,7 @@ def waytopf():
     #---
     nam = searchtext[topend+3:searchtext.find('</', topend+3)]
     topname.append(nam)
-    print(topname)
+    #print(topname)
 #==========================================================================
 #Here is the token for bot SongText @SongTexterbot
 bot=telebot.TeleBot("1604429645:AAFbXQ3rx_a4MMV1LGCYghF2HmwD25J69pE")
@@ -167,8 +167,8 @@ def start_message(message):
     
 @bot.message_handler(content_types=['text'])
 def vibor(message):
-    print(message)
-    print(message.text)
+    #print(message)
+    #print(message.text)
     if message.text == '🔎Найти песню🔎':
         bot.send_message(message.chat.id, 'Отправь мне название песни или исполнителя')
     elif message.text == '❓Что я умею?❓':
