@@ -129,7 +129,7 @@ def waytopf():
     #print(topname)
 #==========================================================================
 #Here is the token for bot SongText @SongTexterbot
-bot=telebot.TeleBot("1604429645:AAFbXQ3rx_a4MMV1LGCYghF2HmwD25J69pE")
+bot=telebot.TeleBot("1604429645:AAHl_3ggnbIG634iILP2UTXDiDeddtK7qOs")
 
 
 mid = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
